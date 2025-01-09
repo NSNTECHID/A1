@@ -270,9 +270,6 @@ proxies:
       headers:
         Host: sg2.6n6.net
     udp: true
-
-
-
   - name: id1go.ipservers.xyz
     server: quiz.int.vidio.com
     port: 443
@@ -393,9 +390,6 @@ proxies:
       headers:
         Host: id2vless.ipservers.xyz
     udp: true
-
-
-
 proxy-groups:
   - name: ID-X
     type: fallback
@@ -410,7 +404,6 @@ proxy-groups:
       - jagoanssh-wqergwe 2
       - jagoanssh-sdfsdfsd
       - jagoanssh-ytyrtrge
-
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
