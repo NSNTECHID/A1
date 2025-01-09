@@ -430,7 +430,14 @@ proxy-groups:
       - "[Trojan] 🇸🇬 sg2.6n6.net"
       - "[Trojan] quiz.int.vidio.com 13"
       - "[Trojan] quiz.int.vidio.com 14"
-
+      - id1go.ipservers.xyz
+      - id2go.ipservers.xyz
+      - jagoanssh-werwrt34
+      - jagoanssh-werwrt34 2
+      - jagoanssh-wqergwe
+      - jagoanssh-wqergwe 2
+      - jagoanssh-sdfsdfsd
+      - jagoanssh-ytyrtrge
   - name: IKLAN
     type: select
     proxies:
