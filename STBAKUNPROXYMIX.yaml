@@ -357,6 +357,7 @@ proxies:
       headers:
         Host: id2vless.ipservers.xyz
     udp: true
+    
   - name: "[Vless] VLess_TLS_ffa59a32-4156-53ae-a3af-99dafd70f804"
     server: quiz.int.vidio.com
     port: 443
@@ -372,6 +373,7 @@ proxies:
       headers:
         Host: id-atha001.kegiatanja.my.id
     udp: true
+    
   - name: "[Vless] VLess_None_TLS_ffa59a32-4156-53ae-a3af-99dafd70f804"
     server: quiz.int.vidio.com
     port: 80
@@ -387,6 +389,7 @@ proxies:
       headers:
         Host: id-atha001.kegiatanja.my.id
     udp: true
+    
   - name: "[Vless] VLess_gRPC_ffa59a32-4156-53ae-a3af-99dafd70f804"
     server: quiz.int.vidio.com
     port: 443
