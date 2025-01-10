@@ -357,7 +357,7 @@ proxies:
       headers:
         Host: id2vless.ipservers.xyz
     udp: true
-      - name: "[Vless] VLess_TLS_ffa59a32-4156-53ae-a3af-99dafd70f804"
+  - name: "[Vless] VLess_TLS_ffa59a32-4156-53ae-a3af-99dafd70f804"
     server: quiz.int.vidio.com
     port: 443
     type: vless
