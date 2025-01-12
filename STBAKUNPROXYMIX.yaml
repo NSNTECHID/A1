@@ -560,3 +560,97 @@ proxies:
       headers:
         Host: sg3.6n6.net
     udp: true
+  - name: "[VMess] jagoanssh-VMESSIDJGN1"
+    server: quiz.int.vidio.com
+    port: 443
+    type: vmess
+    uuid: 8f0ba491-3681-47d4-9697-291e01761f73
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: id1-ray.ipservers.xyz
+    udp: true
+  - name: "[VMess] jagoanssh-VMESSIDJGN1 2"
+    server: id1-ray.ipservers.xyz
+    port: 80
+    type: vmess
+    uuid: 8f0ba491-3681-47d4-9697-291e01761f73
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: quiz.int.vidio.com
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: quiz.int.vidio.com
+    udp: true
+  - name: "[VMess] jagoanssh-VMESSIDJGN2"
+    server: quiz.int.vidio.com
+    port: 443
+    type: vmess
+    uuid: 12c3e6cd-2d74-4a65-bcc2-32d6f9f212d4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id2-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: id2-ray.ipservers.xyz
+    udp: true
+  - name: "[VMess] jagoanssh-VMESSIDJGN2 2"
+    server: id2-ray.ipservers.xyz
+    port: 80
+    type: vmess
+    uuid: 12c3e6cd-2d74-4a65-bcc2-32d6f9f212d4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: quiz.int.vidio.com
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: quiz.int.vidio.com
+    udp: true
+  - name: "[Vless] jagoanssh-VLESSIDJGN1"
+    server: id2vless.ipservers.xyz
+    port: 443
+    type: vless
+    uuid: 8aba6800-4fb6-485c-aa68-317df45cbb9f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: quiz.int.vidio.com
+    network: ws
+    ws-opts:
+      path: /jagoanssh
+      headers:
+        Host: id2vless.ipservers.xyz
+    udp: true
+  - name: "[Vless] jagoanssh-VLESSIDJGN2"
+    server: id1vless.ipservers.xyz
+    port: 443
+    type: vless
+    uuid: 45d7ee4a-61a7-4d41-8b05-e88e4aeaa71e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: quiz.int.vidio.com
+    network: ws
+    ws-opts:
+      path: /jagoanssh
+      headers:
+        Host: id1vless.ipservers.xyz
+    udp: true
