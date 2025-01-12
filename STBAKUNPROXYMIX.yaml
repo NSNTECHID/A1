@@ -403,3 +403,160 @@ proxies:
     grpc-opts:
       grpc-service-name: vless-grpc
     udp: true
+  - name: "[Trojan] 🇸🇬 sg4.6n6.net"
+    server: sg4.6n6.net
+    port: 443
+    type: trojan
+    password: 536ec790-d08e-11ef-ab7b-1239d0255272
+    skip-cert-verify: true
+    sni: quiz.int.vidio.com
+    udp: true
+  - name: "[Trojan] quiz.int.vidio.com"
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 536ec790-d08e-11ef-ab7b-1239d0255272
+    skip-cert-verify: true
+    sni: sg4.6n6.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg4.6n6.net
+    udp: true
+  - name: "[Trojan] quiz.int.vidio.com 2"
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 536ec790-d08e-11ef-ab7b-1239d0255272
+    skip-cert-verify: true
+    sni: sg4.6n6.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg4.6n6.net
+    udp: true
+  - name: "[Trojan] 🇸🇬 sg1.6n6.net"
+    server: sg1.6n6.net
+    port: 443
+    type: trojan
+    password: 284c4170-d098-11ef-ae08-1239d0255272
+    skip-cert-verify: true
+    sni: quiz.int.vidio.com
+    udp: true
+  - name: "[Trojan] quiz.int.vidio.com 3"
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 284c4170-d098-11ef-ae08-1239d0255272
+    skip-cert-verify: true
+    sni: sg1.6n6.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1.6n6.net
+    udp: true
+  - name: "[Trojan] quiz.int.vidio.com 4"
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 284c4170-d098-11ef-ae08-1239d0255272
+    skip-cert-verify: true
+    sni: sg1.6n6.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1.6n6.net
+    udp: true
+  - name: "[Trojan] 🇺🇸 usa.test3.net"
+    server: usa.test3.net
+    port: 443
+    type: trojan
+    password: 70bbb000-d098-11ef-9fed-1239d0255272
+    skip-cert-verify: true
+    sni: quiz.int.vidio.com
+    udp: true
+  - name: "[Trojan] quiz.int.vidio.com 5"
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 70bbb000-d098-11ef-9fed-1239d0255272
+    skip-cert-verify: true
+    sni: usa.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: usa.test3.net
+    udp: true
+  - name: "[Trojan] quiz.int.vidio.com 6"
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 70bbb000-d098-11ef-9fed-1239d0255272
+    skip-cert-verify: true
+    sni: usa.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: usa.test3.net
+    udp: true
+  - name: "[Trojan] 🇸🇬 sg2.6n6.net"
+    server: sg2.6n6.net
+    port: 443
+    type: trojan
+    password: a96e4e80-d098-11ef-a8f0-1239d0255272
+    skip-cert-verify: true
+    sni: quiz.int.vidio.com
+    udp: true
+  - name: "[Trojan] quiz.int.vidio.com 7"
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: a96e4e80-d098-11ef-a8f0-1239d0255272
+    skip-cert-verify: true
+    sni: sg2.6n6.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2.6n6.net
+    udp: true
+  - name: "[Trojan] quiz.int.vidio.com 8"
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: a96e4e80-d098-11ef-a8f0-1239d0255272
+    skip-cert-verify: true
+    sni: sg2.6n6.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2.6n6.net
+    udp: true
+  - name: "[Trojan] 🇸🇬 sg3.6n6.net"
+    server: sg3.6n6.net
+    port: 443
+    type: trojan
+    password: f82c0a40-d098-11ef-bc5d-1239d0255272
+    skip-cert-verify: true
+    sni: quiz.int.vidio.com
+    udp: true
+  - name: "[Trojan] quiz.int.vidio.com 9"
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: f82c0a40-d098-11ef-bc5d-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.6n6.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3.6n6.net
+    udp: true
