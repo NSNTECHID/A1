@@ -451,10 +451,19 @@ proxy-groups:
      - DIRECT
      - REJECT
 
+  - name: GITHUB
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+     - MIX-X
+     - DIRECT
+
 rules:
  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
  - RULE-SET,Block,IKLAN
  - RULE-SET,Game,GAME
+ - RULE-SET,Github,GITHUB
  - RULE-SET,Umum,MIX-X
  - RULE-SET,indo,ID-X
  - RULE-SET,Sosmed,MIX-X
@@ -467,6 +476,10 @@ rules:
 
 
 rule-providers:
+  Github:
+    type: file
+    behavior: classical
+    path: ./github.yaml 
   Game:
     type: file
     behavior: classical
