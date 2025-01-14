@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: "[Trojan] fr1.test3.net"
+  - name: AKUN1
     server: fr1.test3.net
     port: 443
     type: trojan
@@ -40,7 +40,7 @@ proxies:
     skip-cert-verify: true
     sni: quiz.int.vidio.com
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com"
+  - name: AKUN2
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -53,7 +53,7 @@ proxies:
       headers:
         Host: fr1.test3.net
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 2"
+  - name: AKUN3
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -66,7 +66,7 @@ proxies:
       headers:
         Host: fr1.test3.net
     udp: true
-  - name: "[Trojan] 🇸🇬 sg4.6n6.net"
+  - name: AKUN4
     server: sg4.6n6.net
     port: 443
     type: trojan
@@ -74,7 +74,7 @@ proxies:
     skip-cert-verify: true
     sni: quiz.int.vidio.com
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 3"
+  - name: AKUN5
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -87,7 +87,7 @@ proxies:
       headers:
         Host: sg4.6n6.net
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 4"
+  - name: AKUN6
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -100,7 +100,7 @@ proxies:
       headers:
         Host: sg4.6n6.net
     udp: true
-  - name: "[Trojan] 🇬🇧 uk1.test3.net"
+  - name: AKUN7
     server: uk1.test3.net
     port: 443
     type: trojan
@@ -108,7 +108,7 @@ proxies:
     skip-cert-verify: true
     sni: quiz.int.vidio.com
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 5"
+  - name: AKUN8
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -121,7 +121,7 @@ proxies:
       headers:
         Host: uk1.test3.net
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 6"
+  - name: AKUN9
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -134,7 +134,7 @@ proxies:
       headers:
         Host: uk1.test3.net
     udp: true
-  - name: "[Trojan] 🇸🇬 sg1.6n6.net"
+  - name: AKUN10
     server: sg1.6n6.net
     port: 443
     type: trojan
@@ -142,7 +142,7 @@ proxies:
     skip-cert-verify: true
     sni: quiz.int.vidio.com
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 7"
+  - name: AKUN11
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -155,7 +155,7 @@ proxies:
       headers:
         Host: sg1.6n6.net
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 8"
+  - name: AKUN12
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -168,7 +168,7 @@ proxies:
       headers:
         Host: sg1.6n6.net
     udp: true
-  - name: "[Trojan] 🇺🇸 usa.test3.net"
+  - name: AKUN13
     server: usa.test3.net
     port: 443
     type: trojan
@@ -176,7 +176,7 @@ proxies:
     skip-cert-verify: true
     sni: quiz.int.vidio.com
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 9"
+  - name: AKUN14
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -189,7 +189,7 @@ proxies:
       headers:
         Host: usa.test3.net
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 10"
+  - name: AKUN15
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -202,7 +202,7 @@ proxies:
       headers:
         Host: usa.test3.net
     udp: true
-  - name: "[Trojan] 🇸🇬 sg3.6n6.net"
+  - name: AKUN16
     server: sg3.6n6.net
     port: 443
     type: trojan
@@ -210,7 +210,7 @@ proxies:
     skip-cert-verify: true
     sni: quiz.int.vidio.com
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 11"
+  - name: AKUN17
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -223,7 +223,7 @@ proxies:
       headers:
         Host: sg3.6n6.net
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 12"
+  - name: AKUN18
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -236,7 +236,7 @@ proxies:
       headers:
         Host: sg3.6n6.net
     udp: true
-  - name: "[Trojan] 🇸🇬 sg2.6n6.net"
+  - name: AKUN19
     server: sg2.6n6.net
     port: 443
     type: trojan
@@ -244,7 +244,7 @@ proxies:
     skip-cert-verify: true
     sni: quiz.int.vidio.com
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 13"
+  - name: AKUN20
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -257,7 +257,7 @@ proxies:
       headers:
         Host: sg2.6n6.net
     udp: true
-  - name: "[Trojan] quiz.int.vidio.com 14"
+  - name: AKUN21
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -270,7 +270,7 @@ proxies:
       headers:
         Host: sg2.6n6.net
     udp: true
-  - name: id1go.ipservers.xyz
+  - name: AKUN22
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -283,7 +283,7 @@ proxies:
       headers:
         Host: id1go.ipservers.xyz
     udp: true
-  - name: id2go.ipservers.xyz
+  - name: AKUN23
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -296,7 +296,7 @@ proxies:
       headers:
         Host: id2go.ipservers.xyz
     udp: true
-  - name: jagoanssh-werwrt34
+  - name: AKUN24
     server: quiz.int.vidio.com
     port: 443
     type: vmess
@@ -312,7 +312,7 @@ proxies:
       headers:
         Host: id1-ray.ipservers.xyz
     udp: true
-  - name: jagoanssh-werwrt34 2
+  - name: AKUN25
     server: quiz.int.vidio.com
     port: 80
     type: vmess
@@ -328,7 +328,7 @@ proxies:
       headers:
         Host: id1-ray.ipservers.xyz
     udp: true
-  - name: jagoanssh-wqergwe
+  - name: AKUN26
     server: quiz.int.vidio.com
     port: 443
     type: vmess
@@ -344,7 +344,7 @@ proxies:
       headers:
         Host: id2-ray.ipservers.xyz
     udp: true
-  - name: jagoanssh-wqergwe 2
+  - name: AKUN27
     server: quiz.int.vidio.com
     port: 80
     type: vmess
@@ -360,7 +360,7 @@ proxies:
       headers:
         Host: id2-ray.ipservers.xyz
     udp: true
-  - name: jagoanssh-sdfsdfsd
+  - name: AKUN28
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -375,7 +375,7 @@ proxies:
       headers:
         Host: id1vless.ipservers.xyz
     udp: true
-  - name: jagoanssh-ytyrtrge
+  - name: AKUN29
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -390,7 +390,7 @@ proxies:
       headers:
         Host: id2vless.ipservers.xyz
     udp: true
-  - name: AKUN1
+  - name: AKUN30
     server: quiz.int.vidio.com
     port: 443
     type: vmess
@@ -406,7 +406,7 @@ proxies:
       headers:
         Host: id1-ray.ipservers.xyz
     udp: true
-  - name: AKUN2
+  - name: AKUN31
     server: quiz.int.vidio.com
     port: 80
     type: vmess
@@ -422,7 +422,7 @@ proxies:
       headers:
         Host: id1-ray.ipservers.xyz
     udp: true
-  - name: AKUN3
+  - name: AKUN32
     server: quiz.int.vidio.com
     port: 443
     type: vmess
@@ -438,7 +438,7 @@ proxies:
       headers:
         Host: id2-ray.ipservers.xyz
     udp: true
-  - name: AKUN4
+  - name: AKUN33
     server: quiz.int.vidio.com
     port: 80
     type: vmess
@@ -454,7 +454,7 @@ proxies:
       headers:
         Host: id2-ray.ipservers.xyz
     udp: true
-  - name: AKUN5
+  - name: AKUN34
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -469,7 +469,7 @@ proxies:
       headers:
         Host: id1vless.ipservers.xyz
     udp: true
-  - name: AKUN6
+  - name: AKUN35
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -490,60 +490,60 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - id1go.ipservers.xyz
-      - id2go.ipservers.xyz
-      - jagoanssh-werwrt34
-      - jagoanssh-werwrt34 2
-      - jagoanssh-wqergwe
-      - jagoanssh-wqergwe 2
-      - jagoanssh-sdfsdfsd
-      - jagoanssh-ytyrtrge
-      - AKUN1
-      - AKUN2
-      - AKUN3
-      - AKUN4
-      - AKUN5
-      - AKUN6
+      - AKUN22
+      - AKUN23
+      - AKUN24
+      - AKUN25
+      - AKUN26
+      - AKUN27
+      - AKUN28
+      - AKUN29
+      - AKUN30
+      - AKUN31
+      - AKUN32
+      - AKUN33
+      - AKUN34
+      - AKUN35
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[Trojan] fr1.test3.net"
-      - "[Trojan] quiz.int.vidio.com"
-      - "[Trojan] quiz.int.vidio.com 2"
-      - "[Trojan] 🇸🇬 sg4.6n6.net"
-      - "[Trojan] quiz.int.vidio.com 3"
-      - "[Trojan] quiz.int.vidio.com 4"
-      - "[Trojan] 🇬🇧 uk1.test3.net"
-      - "[Trojan] quiz.int.vidio.com 5"
-      - "[Trojan] quiz.int.vidio.com 6"
-      - "[Trojan] 🇸🇬 sg1.6n6.net"
-      - "[Trojan] quiz.int.vidio.com 7"
-      - "[Trojan] quiz.int.vidio.com 8"
-      - "[Trojan] 🇺🇸 usa.test3.net"
-      - "[Trojan] quiz.int.vidio.com 9"
-      - "[Trojan] quiz.int.vidio.com 10"
-      - "[Trojan] 🇸🇬 sg3.6n6.net"
-      - "[Trojan] quiz.int.vidio.com 11"
-      - "[Trojan] quiz.int.vidio.com 12"
-      - "[Trojan] 🇸🇬 sg2.6n6.net"
-      - "[Trojan] quiz.int.vidio.com 13"
-      - "[Trojan] quiz.int.vidio.com 14"
-      - id1go.ipservers.xyz
-      - id2go.ipservers.xyz
-      - jagoanssh-werwrt34
-      - jagoanssh-werwrt34 2
-      - jagoanssh-wqergwe
-      - jagoanssh-wqergwe 2
-      - jagoanssh-sdfsdfsd
-      - jagoanssh-ytyrtrge
       - AKUN1
       - AKUN2
       - AKUN3
       - AKUN4
       - AKUN5
       - AKUN6
+      - AKUN7
+      - AKUN8
+      - AKUN9
+      - AKUN10
+      - AKUN11
+      - AKUN12
+      - AKUN13
+      - AKUN14
+      - AKUN15
+      - AKUN16
+      - AKUN17
+      - AKUN18
+      - AKUN19
+      - AKUN20
+      - AKUN21
+      - AKUN22
+      - AKUN23
+      - AKUN24
+      - AKUN25
+      - AKUN26
+      - AKUN27
+      - AKUN28
+      - AKUN29
+      - AKUN30
+      - AKUN31
+      - AKUN32
+      - AKUN33
+      - AKUN34
+      - AKUN35
   - name: IKLAN
     type: select
     proxies:
